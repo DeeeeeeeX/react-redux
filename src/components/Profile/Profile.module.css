@@ -1,11 +1,4 @@
-.content {
-  grid-area: c;
-  background-color: cornflowerblue;
-  border-radius: 20px;
-  padding: 20px;
-}
-
-.content .vulcan {
+.vulcan {
   width: 1000px;
   border-radius: 20px;
 }
