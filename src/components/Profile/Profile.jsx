@@ -1,16 +1,12 @@
 import React from 'react';
 import MyPosts from './MyPosts/MyPosts';
 import s from './Profile.module.css';
+import ProfileInfo from "./Profileinfo/ProfileInfo";
 
 const Profile = () => {
     return (
         <div>
-            <div>
-                <img className={s.vulcan} src='https://proprikol.ru/wp-content/uploads/2020/04/kartinki-vulkany-27.jpg' alt='0'/>
-            </div>
-            <div>
-                ava + description
-            </div>
+            <ProfileInfo/>
             <MyPosts/>
         </div>
     )
