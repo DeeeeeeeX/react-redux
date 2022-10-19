@@ -1,0 +1,80 @@
+.item a {
+  margin: 0 auto;
+  display: block;
+  width: 100px;
+}
+
+.item {
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid rgba(55, 48, 61, 0.4);
+  transition: 0.8s;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.nav {
+  grid-area: n;
+  background-color: rgb(217, 174, 231, 0.7);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.active {
+  border: 1px solid rgb(173, 27, 255);
+  transition: 0.7s;
+  border-radius: 100%;
+  text-decoration: none;
+  color: #ad1bff;
+}
+
+.inactive {
+  border: 1px dashed rgba(55, 48, 61, 0.4);
+  border-radius: 100%;
+}
+
+.item {
+  color: #ffffff;
+}
+
+.item a {
+  text-decoration: none;
+}
+
+.friendsBar .fImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  padding: 9px;
+}
+
+.friendsBar h2 {
+  text-align: center;
+}
+
+.friendsBar {
+  border-radius: 10px;
+  border: 1px solid rgba(55, 48, 61, 0.4);
+  padding: 3px;
+  transition: 0.3s;
+  margin-bottom: 10px;
+}
+
+.friendsBar .friendsItem {
+  border-radius: 10px;
+  border: 1px solid rgba(55, 48, 61, 0.4);
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+
+.friendsItem {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  margin-left: 10px;
+  width: 98px;
+  height: 30px;
+}
