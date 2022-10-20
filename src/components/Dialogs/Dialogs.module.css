@@ -23,3 +23,7 @@
 .messages .message {
     color: white;
 }
+
+.sendMessage {
+    margin-top: 10px;
+}
