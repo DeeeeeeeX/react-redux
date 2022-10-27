@@ -8,7 +8,7 @@ const mapStateToProps = (state) => {
     return {
         sideBarImg: sideBarImg = state.sidebar.sidebarImg.map(p => {
             return (
-                <div className={s.friendsItem}>
+                <div className={s.friendsItem} key={p.id}>
                     <img className={s.fImg} src={p.link} alt={`friends${p.id}`}/>
                     <div className={s.name}>{p.name}</div>
                 </div>
