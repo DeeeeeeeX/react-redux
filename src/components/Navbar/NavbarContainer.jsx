@@ -4,9 +4,8 @@ import Navbar from "./Navbar";
 import {connect} from "react-redux";
 
 const mapStateToProps = (state) => {
-    let sideBarImg;
     return {
-        sideBarImg: sideBarImg = state.sidebar.sidebarImg.map(p => {
+        sideBarImg: state.sidebar.sidebarImg.map(p => {
             return (
                 <div className={s.friendsItem} key={p.id}>
                     <img className={s.fImg} src={p.link} alt={`friends${p.id}`}/>
