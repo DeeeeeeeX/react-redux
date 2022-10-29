@@ -8,6 +8,7 @@
 
 .header img {
   width: 45px;
+  height: 45px;
   border-radius: 100%;
   opacity: 0.9;
 }
