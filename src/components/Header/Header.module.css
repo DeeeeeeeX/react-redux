@@ -12,3 +12,13 @@
   border-radius: 100%;
   opacity: 0.9;
 }
+
+.loginBlock {
+  margin: 10px 15px 0 0;
+  float: right;
+
+}
+
+.loginBlock a {
+ color: white;
+}
