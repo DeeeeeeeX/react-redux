@@ -10,6 +10,7 @@ let Users = (props) => {
     for (let i = 1; i <= 10; i++) {  // pagesCount
         pages.push(i);
     }
+    debugger;
     return <div>
         <div>
             {pages.map(p => {
@@ -30,27 +31,8 @@ let Users = (props) => {
                     </div>
                     <div>
                         {u.followed
-                            ? <button disabled={props.followingInProgress.some(id => id === u.id)} onClick={() => {
-                                props.toggleIsFollowingProgress(true, u.id);
-                                followAPI.deleteFollow(u.id)
-                                    .then(data => {
-                                        if (data.resultCode === 0) {
-                                            props.unfollow(u.id);
-                                        }
-                                        props.toggleIsFollowingProgress(false, u.id);
-                                    });
-                            }}> Unfollow</button>
-
-                            : <button disabled={props.followingInProgress.some(id => id === u.id)} onClick={() => {
-                                props.toggleIsFollowingProgress(true, u.id);
-                                followAPI.getFollow(u.id)
-                                    .then(data => {
-                                        if (data.resultCode === 0) {
-                                            props.follow(u.id);
-                                        }
-                                        props.toggleIsFollowingProgress(false, u.id);
-                                    });
-                            }}>Follow</button>}
+                            ? <button disabled={props.followingInProgress.some(id => id === u.id)} onClick={() => {props.unfollow(u.id)}}> Unfollow</button>
+                            : <button disabled={props.followingInProgress.some(id => id === u.id)} onClick={() => {props.follow(u.id)}}>Follow</button>}
                     </div>
                 </span>
                 <span>
