@@ -16,7 +16,8 @@ const App = () => {
         <NavbarContainer/>
         <div className='app-wrapper-content'>
             <Routes>
-                <Route path='/profile' element={<ProfileContainer/>}/>
+                <Route path="/profile/:userId" element={<ProfileContainer/>}/>
+                <Route path="/profile/" element={<ProfileContainer/>}/>
                 <Route path='/dialogs/*' element={<DialogsContainer/>}/>
                 <Route path='/users' element={<UsersContainer/>}/>
                 <Route path='/news' element={<News/>}/>
@@ -26,5 +27,7 @@ const App = () => {
         </div>
     </div>);
 }
+
+//ЗНАК ВОПРОСА В РОУТЕ ПРОФИЛЯ??????????
 
 export default App;

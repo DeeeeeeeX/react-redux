@@ -18,7 +18,6 @@ export const usersAPI = {
     }
 }
 
-
 export const followAPI = {
 
     unfollow(id) {
@@ -38,8 +37,8 @@ export const followAPI = {
 
 export const profileAPI = {
 
-    getProfile () {
-        return instance.get(`profile/2`)
+    getProfile (userId) {
+        return instance.get(`profile/${userId}`)
             .then(response => {
                 return response.data;
             });
