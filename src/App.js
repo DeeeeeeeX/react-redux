@@ -9,6 +9,7 @@ import NavbarContainer from "./components/Navbar/NavbarContainer";
 import UsersContainer from "./components/Users/UsersContainer";
 import ProfileContainer from "./components/Profile/ProfileContainer";
 import HeaderContainer from "./components/Header/HeaderContainer";
+import LoginPage from "./components/Login/Login";
 
 const App = () => {
     return (<div className='app-wrapper'>
@@ -23,6 +24,7 @@ const App = () => {
                 <Route path='/news' element={<News/>}/>
                 <Route path='/music' element={<Music/>}/>
                 <Route path='/settings' element={<Settings/>}/>
+                <Route path='/login' element={<LoginPage/>}/>
             </Routes>
         </div>
     </div>);
