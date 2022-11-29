@@ -5,12 +5,13 @@ import Users from "./Users";
 import Preloader from "../common/Preloader/Preloader";
 import {compose} from "redux";
 import {
-    getUsers,
     getCurrentPage,
     getFollowingInProgress,
     getIsFetching,
     getPageSize,
-    getTotalUserCount
+    getTotalUserCount,
+    getUsers,
+    
 } from "../../redux/Users-selectors";
 
 class UserContainer extends React.Component {
