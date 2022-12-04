@@ -1,17 +1,23 @@
 {
   "files": {
-    "main.css": "/react-redux/static/css/main.3e94d6b5.css",
-    "main.js": "/react-redux/static/js/main.16e9cf10.js",
+    "main.css": "/react-redux/static/css/main.d9dc6dad.css",
+    "main.js": "/react-redux/static/js/main.6ad59e0d.js",
+    "static/css/622.4a4242be.chunk.css": "/react-redux/static/css/622.4a4242be.chunk.css",
+    "static/js/622.7a12c3b9.chunk.js": "/react-redux/static/js/622.7a12c3b9.chunk.js",
+    "static/js/797.cdd9262b.chunk.js": "/react-redux/static/js/797.cdd9262b.chunk.js",
     "static/js/787.b3f4d718.chunk.js": "/react-redux/static/js/787.b3f4d718.chunk.js",
     "static/media/user.png": "/react-redux/static/media/user.8dff40ee33dc6740c42a.png",
     "static/media/loader.svg": "/react-redux/static/media/loader.7197f8dea699b8d798194f21d8898a01.svg",
     "index.html": "/react-redux/index.html",
-    "main.3e94d6b5.css.map": "/react-redux/static/css/main.3e94d6b5.css.map",
-    "main.16e9cf10.js.map": "/react-redux/static/js/main.16e9cf10.js.map",
+    "main.d9dc6dad.css.map": "/react-redux/static/css/main.d9dc6dad.css.map",
+    "main.6ad59e0d.js.map": "/react-redux/static/js/main.6ad59e0d.js.map",
+    "622.4a4242be.chunk.css.map": "/react-redux/static/css/622.4a4242be.chunk.css.map",
+    "622.7a12c3b9.chunk.js.map": "/react-redux/static/js/622.7a12c3b9.chunk.js.map",
+    "797.cdd9262b.chunk.js.map": "/react-redux/static/js/797.cdd9262b.chunk.js.map",
     "787.b3f4d718.chunk.js.map": "/react-redux/static/js/787.b3f4d718.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e94d6b5.css",
-    "static/js/main.16e9cf10.js"
+    "static/css/main.d9dc6dad.css",
+    "static/js/main.6ad59e0d.js"
   ]
 }
