@@ -6,3 +6,15 @@
 .descriptionBlock {
   padding: 10px;
 }
+
+.mainPhoto {
+  max-width: 200px;
+}
+
+.contact {
+  padding-left: 15px;
+}
+
+.loadPhoto {
+  margin: 5px 0 10px 5px;
+}
